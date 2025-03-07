@@ -1,6 +1,7 @@
 # MDP REPRESENTATION
-
+```
 ## AIM:
+MARKOV DECISION PROCESS (MDP) REPRESENTATION
 # **PROBLEM STATEMENT**  
 
 DEVELOPING A POLICY TO MANAGE A CAR ENGINE'S HEAT LEVEL EFFICIENTLY WHILE OPTIMIZING THE EXPECTED CUMULATIVE REWARD**  
@@ -32,7 +33,7 @@ A SAMPLE ACTION COULD BE **"BRAKE,"** INDICATING THAT THE DRIVER HAS CHOSEN TO A
 ### **REWARD FUNCTION**  
 
 THE REWARDS ARE STRUCTURED TO ENCOURAGE ACTIONS THAT MAINTAIN THE ENGINE IN THE **"COOL"** STATE (**REWARD OF 1.0**) AND PENALIZE ACTIONS THAT LEAD TO THE **"HOT"** STATE (**STRONG PENALTY OF -10.0**).
-
+```
 ### Graphical Representation
 ![265317628-c6ec3554-ea31-4e5a-b72c-fcf50fcb470e](https://github.com/user-attachments/assets/9a0a97d6-e923-4ff2-9885-de887fa4211e)
 
@@ -68,7 +69,7 @@ mdp = {
 ![image](https://github.com/user-attachments/assets/fb4401f1-26d5-4ca6-8d0d-32b9be70d053)
 
 
-
+```
 ## RESULT:
 
 Thus, a Markov Decision Process (MDP) problem is represented in the following ways:
@@ -76,4 +77,5 @@ Thus, a Markov Decision Process (MDP) problem is represented in the following wa
 Text representation
 Graphical representation
 Python - Dictonary representation
+```
 
