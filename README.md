@@ -42,9 +42,35 @@ The rewards are structured to encourage actions that maintain the engine in the 
 
 
 ## PYTHON REPRESENTATION:
-
+```
+mdp = {
+    "Cool": {
+        "Accelerate": [
+            (0.2, "Cool", -10.0, False),
+            (0.8, "Hot", -10.0, False),
+        ],
+        "Brake": [
+            (0.9, "Cool", 1.0, False),
+            (0.1, "Hot", -10.0, False),
+        ],
+    },
+    "Hot": {
+        "Accelerate": [
+            (0.6, "Cool", 1.0, False),
+            (0.4, "Hot", -10.0, False),
+        ],
+        "Brake": [
+            (0.3, "Cool", 1.0, False),
+            (0.7, "Hot", -10.0, False),
+        ],
+    },
+}
+```
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/fb4401f1-26d5-4ca6-8d0d-32b9be70d053)
+
 
 
 ## RESULT:
